@@ -1,1 +1,38 @@
-
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.north,
+.south{
+    border-bottom: 1px solid #333 ;
+    box-shadow: 0 2px 7px 1px #333;
+}
+.north h2{
+    font-size: 32px !important;
+    font-family:  Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif !important;
+}
+.card img{
+    height: 430px !important;
+    border-radius: 20px ;
+}
+.card{
+    padding: 1.5em;
+    border-radius: 25px;
+    color: #ffffff;
+    box-shadow: 5px 5px 10px #ccc;
+    background: linear-gradient(150deg, #FF7E5F, #FEB47B 100%) !important;
+}
+ h3{
+    font-size: 2.7em !important;
+    font-family: 'Source Sans Regular';
+    font-weight: 700 !important;
+    color: rgb(255, 231, 231) !important;
+}
+.card-text{
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: left;
+    line-height: 1.5;
+}
